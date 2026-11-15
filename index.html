@@ -5,13 +5,49 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Abandoned but Not Forgotten</title>
+  <meta name="description" content="Meet the NASA robots left behind on the Moon, on Mars and in deep space, and the science they made possible.">
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <header class="hero">
     <h1>Abandoned but Not Forgotten</h1>
-    <p>Meet the robots that NASA left behind, and the science they made possible.</p>
+    <p class="tagline">Meet the robots NASA left behind, and the science they made possible.</p>
+    <p class="hook">On November 18, 2026, Voyager 1 will be one light-day from Earth. A message sent to it takes a whole day to arrive.</p>
+    <a class="start" href="#robots">Start the tour</a>
   </header>
+
+  <main>
+    <section id="robots">
+      <h2>The Retirement Home for Space Robots</h2>
+      <p class="intro">Choose where to look. Each robot tells you its own story.</p>
+      <div class="filters">
+        <button class="filter active" data-zone="All">All</button>
+        <button class="filter" data-zone="Moon">Moon</button>
+        <button class="filter" data-zone="Mars">Mars</button>
+        <button class="filter" data-zone="Deep Space">Deep Space</button>
+      </div>
+      <div id="cards" class="cards"></div>
+    </section>
+
+    <section id="quiz">
+      <h2>Quiz: Do You Remember Them?</h2>
+      <div id="quiz-box" class="quiz-box"></div>
+    </section>
+  </main>
+
+  <footer>
+    <h2>Credits</h2>
+    <p><strong>Main NASA sources:</strong></p>
+    <ul>
+      <li><a href="https://science.nasa.gov/surveyor-3">NASA Science: Surveyor 3</a></li>
+      <li><a href="https://www.nasa.gov/history/25-years-of-continuous-robotic-mars-exploration-from-pathfinder-to-perseverance">NASA History: 25 Years of Continuous Robotic Mars Exploration</a></li>
+      <li><a href="https://www.jpl.nasa.gov/news/after-three-years-on-mars-nasas-ingenuity-helicopter-mission-ends/">NASA JPL: Ingenuity mission ends</a></li>
+      <li><a href="https://science.nasa.gov/mission/voyager/where-are-voyager-1-and-voyager-2-now/">NASA Science: Where are Voyager 1 and 2 now?</a></li>
+    </ul>
+    <p><strong>SI (AI) disclosure:</strong> The text and code of this site were written with the help of Claude, an AI assistant by Anthropic. The site has no images; the icons are standard emoji. This project is not affiliated with or endorsed by NASA. Made for the NASA Space Apps Challenge 2026, challenge "Abandoned but not Forgotten".</p>
+  </footer>
+
+  <script src="data.js"></script>
   <script src="script.js"></script>
 </body>
 </html>
