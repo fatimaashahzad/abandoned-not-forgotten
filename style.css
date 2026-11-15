@@ -1,0 +1,18 @@
+/* SI disclosure: written with the help of Claude (AI). */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0b1026;
+  color: #f2f4ff;
+}
+.hero {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 0 20px;
+}
+.hero h1 { font-size: 2.5rem; margin-bottom: 10px; }
+.hero p { font-size: 1.2rem; max-width: 500px; }
