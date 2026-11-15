@@ -100,3 +100,34 @@ const quiz = [
     explain: "Voyager 1 is still talking to Earth after almost 50 years."
   }
 ];
+
+// ----- Story text, added for the scrolling story version -----
+const chapterText = {
+  "Moon": {
+    target: "ch-moon",
+    title: "Chapter 1: The Quiet Moon",
+    text: "Our journey starts about 384,000 kilometers from home. The Moon has almost no air and no weather, so things left behind change very slowly. Meet the machines that stayed."
+  },
+  "Mars": {
+    target: "ch-mars",
+    title: "Chapter 2: The Dusty Red Planet",
+    text: "Next stop: Mars, a cold and dusty world. Dust was the rovers' biggest enemy. It covered their solar panels and blocked the sunlight they needed to stay alive. Some of these robots refused to give up."
+  },
+  "Deep Space": {
+    target: "ch-deep",
+    title: "Chapter 3: The Edge of Everything",
+    text: "Our last stop is the farthest one. Out here the Sun is far away, and one robot is still sending signals home."
+  }
+};
+
+const overachievers = [
+  { name: "Spirit", plan: "90 days", real: "about 6 years", planPct: 4, times: "About 24 times longer than planned" },
+  { name: "Opportunity", plan: "90 days", real: "about 15 years", planPct: 2, times: "About 60 times longer than planned" },
+  { name: "Ingenuity", plan: "5 flights", real: "72 flights", planPct: 7, times: "More than 14 times as many flights as planned" }
+];
+
+const delays = [
+  { label: "the Moon", seconds: 1.3, note: "This one is real speed! A radio message needs about 1.3 seconds to reach the Moon." },
+  { label: "Mars", seconds: 6, note: "A message needs about 3 to 22 minutes to reach Mars, depending on where the planets are. We sped it up so you do not have to wait." },
+  { label: "Voyager 1", seconds: 9, note: "A message needs about 24 hours to reach Voyager 1. That is a whole day for one hello, and another day for the answer. We sped this up a lot." }
+];
